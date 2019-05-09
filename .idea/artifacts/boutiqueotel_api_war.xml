@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="boutiqueotel-api:war">
+    <output-path>$PROJECT_DIR$/boutiqueotel-api/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>boutiqueotel-api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="boutiqueotel-api.war">
+      <element id="artifact" artifact-name="boutiqueotel-api:war exploded" />
+    </root>
+  </artifact>
+</component>
